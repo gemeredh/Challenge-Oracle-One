@@ -12,7 +12,6 @@ body{
 .contenedor{
 
 
-position: absolute;
 margin: auto;
 }
 .textarea{
@@ -29,12 +28,10 @@ font-family: 'Inter';
 font-style: normal;
 font-size: 32px;
 line-height: 150%;
-/* identical to box height, or 48px */
 color: var(--Dark_blue);
 }
 .texto_advertecia{
 	
-/* Solo letras minœsculas y sin acentos */
 
 width: 205px;
 height: 18px;
@@ -44,14 +41,11 @@ font-style: normal;
 font-weight: 400;
 font-size: 12px;
 line-height: 150%;
-/* identical to box height, or 18px */
 
-/* Gray/gray-400 */
 color: #495057;
 
 opacity: 0.8;
 
-/* Inside auto layout */
 flex: none;
 order: 1;
 flex-grow: 0;
@@ -67,5 +61,8 @@ top: 40px;
 background: #FFFFFF;
 box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
 border-radius: 32px;
+}
+footer{
+	text-align: end;
 }
 
