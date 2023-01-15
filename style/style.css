@@ -1,37 +1,46 @@
-:root{
-	--Dark_blue : #0A3871;
-	--Gray : #868E96;
+:root {
+	--Dark_blue: #0A3871;
+	--Gray: #868E96;
 	--Ligth_blue: #F3F5FC;
 }
-*{
+
+* {
 	background-color: var(--Ligth_blue);
 	font-family: 'Inter';
 	font-size: 32px;
 	font-weight: 400;
 	line-height: 150%;
-	
+
 }
-.logo{
+
+.logo {
 	padding: 10px auto auto 10px;
 	width: 10%;
 }
-main{
+
+main {
 	display: flex;
 	/* margin: auto auto 50px 80px; */
 	margin-bottom: 50px;
 	margin-left: 80px;
 }
-.textarea{
+
+.textarea {
 	border: none;
 	color: var(--Dark_blue);
 	margin-top: 90px;
 	text-transform: lowercase;
 }
-::placeholder{color: var(--Dark_blue);}
-	.textarea:focus{
-			outline: none;
-	}
-.mensaje{
+
+::placeholder {
+	color: var(--Dark_blue);
+}
+
+.textarea:focus {
+	outline: none;
+}
+
+.mensaje {
 	background: #FFFFFF;
 	background-image: url(../img/Muñeco.png);
 	background-repeat: no-repeat;
@@ -42,14 +51,17 @@ main{
 	padding-left: 20px;
 	position: fixed;
 }
-.mensaje:focus{
+
+.mensaje:focus {
 	outline: none;
 }
-.botones{
+
+.botones {
 	display: flex;
 	margin-top: 18px;
 }
-.desencirptador{
+
+.desencirptador {
 	background-color: var(--Gray);
 	border: 1px solid var(--Dark_blue);
 	border-radius: 24px;
@@ -59,7 +71,8 @@ main{
 	width: 328px;
 	margin-left: 30px;
 }
-.encriptador{
+
+.encriptador {
 	background-color: var(--Dark_blue);
 	border: 1px solid var(--Dark_blue);
 	border-radius: 24px;
@@ -68,7 +81,8 @@ main{
 	width: 328px;
 	cursor: pointer;
 }
-.boton-copiar{
+
+.boton-copiar {
 	border: 1px solid var(--Dark_blue);
 	border-radius: 24px;
 	color: var(--Dark_blue);
@@ -76,13 +90,15 @@ main{
 	height: 67px;
 	margin-left: 108px;
 	margin-top: 402px;
-	position:absolute;
+	position: absolute;
 	width: 336px;
 }
-.informacion{
+
+.informacion {
 	color: var(--Gray);
 	font-size: 18px;
 }
-.derecho{
+
+.derecho {
 	text-align: center;
 }
