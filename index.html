@@ -15,27 +15,29 @@
 <body class="contenedor">
 	<header>
 		<div >
-			<img class="logo" src="img/Logo.png">
+			<img class="logo" alt="Logo de alura"src="img/Logo.png">
 		</div>
 	</header>
 	<main >
-		<div>
-			<textarea class="textarea"></textarea>
-		</div>
-		<div class="advertencia">
-			<p class="texto_advertecia">Solo letras minúsculas y sin acentos</p>
-		</div>
 		<section>
-
-			<input type="submit" value="Encriptar" class="BotonEncriptador">
-			<input type="submit" value="Desencriptar" class="BottonDesencriptador">
+			<textarea class="textarea" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+		<div class="informacion">
+			<h6 class="texto_advertecia">Solo letras minúsculas y sin acentos</h6>
+		</div>
+		<div class="botones">
+			<button class="encriptador">Encriptar</button>
+			<button class="desencirptador">Desencriptar</button>
+		</div>
 		</section>
-		<section class="Resultado">
-			<textarea class="resultado"></textarea>
-			<input type="submit" value="Copiar">
+		<section class="resultado">
+			<textarea class="mensaje" cols="" rows="10"></textarea>
+			<div>
+			<button class="boton-copiar">Copiar</button>
+			</div>
 		</section>
 	</main>
 	<footer>
+		<div class="derecho">
 		<p>Todos los derechos reservados </p>
 		<a href="https://www.instagram.com/eduardo.gem/">
 			<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-instagram" width="36"
@@ -58,10 +60,10 @@
 				<line x1="12" y1="16" x2="12" y2="11" />
 				<path d="M16 16v-3a2 2 0 0 0 -4 0" />
 			</svg>
-
 		</a>
+		</div>
 	</footer>
 </body>
-<script src"./js/encriptador.js"></script>
+<script src"encriptador js"></script>
 
 </html>

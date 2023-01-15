@@ -3,66 +3,86 @@
 	--Gray : #868E96;
 	--Ligth_blue: #F3F5FC;
 }
-body{
+*{
 	background-color: var(--Ligth_blue);
+	font-family: 'Inter';
+	font-size: 32px;
 	font-weight: 400;
-	width: 1440px;
-	height: 1034px;
+	line-height: 150%;
+	
 }
-.contenedor{
-
-
-margin: auto;
+.logo{
+	padding: 10px auto auto 10px;
+	width: 10%;
+}
+main{
+	display: flex;
+	/* margin: auto auto 50px 80px; */
+	margin-bottom: 50px;
+	margin-left: 80px;
 }
 .textarea{
-
-/* Ingrese el texto aqui */
-
-position: absolute;
-width: 577px;
-height: 48px;
-left: 240px;
-top: 168px;
-
-font-family: 'Inter';
-font-style: normal;
-font-size: 32px;
-line-height: 150%;
-color: var(--Dark_blue);
+	border: none;
+	color: var(--Dark_blue);
+	margin-top: 90px;
+	text-transform: lowercase;
 }
-.texto_advertecia{
-	
-
-width: 205px;
-height: 18px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 150%;
-
-color: #495057;
-
-opacity: 0.8;
-
-flex: none;
-order: 1;
-flex-grow: 0;
+::placeholder{color: var(--Dark_blue);}
+	.textarea:focus{
+			outline: none;
+	}
+.mensaje{
+	background: #FFFFFF;
+	background-image: url(../img/Muñeco.png);
+	background-repeat: no-repeat;
+	border: none;
+	border-radius: 24px;
+	color: var(--Dark_blue);
+	margin: 20px auto auto 80px;
+	padding-left: 20px;
+	position: fixed;
 }
-.Resultado{
-
-position: absolute;
-width: 400px;
-height: 944px;
-left: 1000px;
-top: 40px;
-
-background: #FFFFFF;
-box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-border-radius: 32px;
+.mensaje:focus{
+	outline: none;
 }
-footer{
-	text-align: end;
+.botones{
+	display: flex;
+	margin-top: 18px;
 }
-
+.desencirptador{
+	background-color: var(--Gray);
+	border: 1px solid var(--Dark_blue);
+	border-radius: 24px;
+	color: var(--Dark_blue);
+	cursor: pointer;
+	height: 67px;
+	width: 328px;
+	margin-left: 30px;
+}
+.encriptador{
+	background-color: var(--Dark_blue);
+	border: 1px solid var(--Dark_blue);
+	border-radius: 24px;
+	color: white;
+	height: 67px;
+	width: 328px;
+	cursor: pointer;
+}
+.boton-copiar{
+	border: 1px solid var(--Dark_blue);
+	border-radius: 24px;
+	color: var(--Dark_blue);
+	cursor: pointer;
+	height: 67px;
+	margin-left: 108px;
+	margin-top: 402px;
+	position:absolute;
+	width: 336px;
+}
+.informacion{
+	color: var(--Gray);
+	font-size: 18px;
+}
+.derecho{
+	text-align: center;
+}
