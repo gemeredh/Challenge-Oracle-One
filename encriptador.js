@@ -45,8 +45,8 @@ function botondesencriptar() {
 
 function copiar() {
 	resultado.select();
-	navigator.clipboard.writeText(resultado.value)
-	resulatdo.value = ''
-	btncopiar.style.display = 'none'
+	navigator.clipboard.writeText(resultado.value);
+	resultado.value = '';
+	btncopiar.style.display = 'none';
 	alert('Se a copiado el texto')
 }
