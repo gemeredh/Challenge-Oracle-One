@@ -38,6 +38,7 @@ function botondesencriptar() {
 }
 function hola(){
 	console.log('holamundo');
+	console.log('aeou')
 }
 
 
