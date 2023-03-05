@@ -36,7 +36,9 @@ function botondesencriptar() {
 			}
 	} return textoDesncriptado
 }
-
+function hola(){
+	console.log('holamundo');
+}
 
 
 
